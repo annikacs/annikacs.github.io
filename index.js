@@ -13,7 +13,7 @@ function myFunction() {
  var myAudio;
 
 var questions = [
-["What is the capital of Equador?",["Quito","Puyo","Cuenca"],0],
+["What is the capital of Equador?-",["Quito","Puyo","Cuenca"],0],
 ["What is the capital of Bolivia?",["La Guardia","Sucre","El Alto"],1],
 ["What is the capital of Peru?",["Callao","Arequipa","Lima"],2],
 ["What is the capital of Chile?",["La Serena","Santiago","Temuco"],1],
