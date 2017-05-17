@@ -1,0 +1,40 @@
+	body {
+	  background-color: AliceBlue;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 20em
+	}
+
+	#Heading{
+	  color: black;
+	  font-family: "Arial Black";
+	}
+
+	#Question{
+	  text-align: center;
+	  font-weight: bold;
+	  font-size: 20px;
+	}
+
+	#myAnswers{
+		text-align: left;
+		margin-left: 7em;
+	  font-weight: bold;
+	}
+
+	#myMusicButton2{
+		visibility: hidden;
+	}
+
+  #myButton{
+		visibility: hidden;
+	}
+
+	#myButton3{
+		visibility: hidden;
+	}
+
+  #lastMessage{
+		color: Indigo;
+	}

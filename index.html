@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+     <link rel="stylesheet" href="index.css">
+     <style>
+     body{
+     }
+     </style>
+      <title>
+        Close-up Landmark Quiz
+      </title>
+  </head>
+    <body>
+      <br />
+      <h1 id="Heading" style="text-align:center;">Country Capitals Quiz</h1>
+      <hr />
+      <br />
+      <button type="button", id="myMusicButton">Play Music</button>
+      <button type="button", id="myMusicButton2">Stop Music</button>
+      <br />
+      <br />
+        <!-- Here is the question.  Assign an ID so you can change it through your code -->
+            <div id="Question"></div>
+
+        <!-- This form holds my radio buttons -->
+            <form id="myAnswers" action="">
+
+              <!-- List all your radio buttons here.  The span tag looks to be on the next line, but it really just continues the first -->
+              <input type="radio" name="answer" value="baseball" >
+              <span id="label0"></span><br>
+
+              <input type="radio" name="answer" value="football">
+              <span id="label1"></span><br>
+
+              <input type="radio" name="answer" value="soccer">
+              <span id="label2"></span><br>
+
+            </form>
+
+
+              <!-- Last Message area on the screen -->
+                  <span id="lastMessage"></span>
+                    <br>
+
+              <button type="button", id="myButton2">Submit</button>
+              <button type="button", id="myButton">Next</button>
+              <br><br>
+              <button type="button", id="myButton3" onclick="myFunction()">Retry</button>
+
+              <br><br><br>
+
+      <script src="index.js"></script>    <!-- Include index.js as a JavaScript script file. -->
+
+
+    </body>
+
+  </html>
